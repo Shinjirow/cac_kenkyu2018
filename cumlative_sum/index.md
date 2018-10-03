@@ -1,6 +1,9 @@
 # cumlative_sum
 
 累積和やるやつ
+test  
+$N$  
+$$N$$  
 
 ## 鉄道職員
 
