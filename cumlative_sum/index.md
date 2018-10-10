@@ -1,40 +1,42 @@
 # cumlative_sum
 
-累積和やるやつ
-test  
-$N$  
-$$N$$  
+累積和やるやつ 
 
 ## 鉄道職員
 
 Shinjirowくんは，シーエーシー鉄道に就職しました．  
-シーエーシー鉄道には，$N$駅あり，それぞれの駅間$(1 \leq i \leq N)$を電車が走る移動時間は$a_i$分です．  
+シーエーシー鉄道には，<img src="https://latex.codecogs.com/gif.latex?N" />駅あり，それぞれの駅間<img src="https://latex.codecogs.com/gif.latex?1&space;\leq&space;i&space;\leq&space;N" />を電車が走る移動時間は<img src="https://latex.codecogs.com/gif.latex?a_i" />分です．  
 Shinjirowくんはお客様サポートセンターの職員として今働いています．  
 シーエーシー鉄道を利用する客からの質問に答える役割です．  
-具体的には，$l$番目の駅から$r$番目の駅に移動するのにかかる移動時間が何分かを答える仕事をしています．  
-お客さんは$Q$人やってきます．
+具体的には，<img src="https://latex.codecogs.com/gif.latex?l" />番目の駅から<img src="https://latex.codecogs.com/gif.latex?r" />番目の駅に移動するのにかかる移動時間が何分かを答える仕事をしています．  
+お客さんは<img src="https://latex.codecogs.com/gif.latex?Q" />人やってきます．
 Shinjirowくんは，これをいちいち自力で計算するのは大変なので，その計算を行うプログラムを作って欲しいと考えています．  
 
 なので，二つの駅が聞かれた時に，その移動時間を答えるプログラムを作ってください．  
 
 ### 制約
 
-$2 \leq N \leq 10^5$  
-$1 \leq a_i \leq 10^5$  
-$1 \leq Q \leq 10^5$
-$1 \leq l \leq r \leq N$  
+<img src="https://latex.codecogs.com/gif.latex?2&space;\leq&space;N&space;\leq&space;10^5" />  
+<img src="https://latex.codecogs.com/gif.latex?1&space;\leq&space;a_i&space;\leq&space;10^5" />  
+<img src="https://latex.codecogs.com/gif.latex?1&space;\leq&space;Q&space;\leq&space;10^5" />
+<img src="https://latex.codecogs.com/gif.latex?1&space;\leq&space;l&space;\leq&space;r&space;\leq&space;N" />  
 入力は全て整数である．
 
 ### 入力
 
 以下の形式で入力は与えられる．  
-|$N$<br>$a_1$ $a_2$ $a_3$ $...$ $a_N$<br>$Q$<br>$l_1$ $r_1$<br>$l_2$ $r_2$<br>.<br>.<br>$l_Q$ $r_Q$|
-|:---|
-
+<img src="https://latex.codecogs.com/gif.latex?N" />  
+<img src="https://latex.codecogs.com/gif.latex?a_1" /> <img src="https://latex.codecogs.com/gif.latex?a_2" /> <img src="https://latex.codecogs.com/gif.latex?a_3" /> ... <img src="https://latex.codecogs.com/gif.latex?a_N" />  
+<img src="https://latex.codecogs.com/gif.latex?Q" />  
+<img src="https://latex.codecogs.com/gif.latex?l_1" /> <img src="https://latex.codecogs.com/gif.latex?r_1" />  
+<img src="https://latex.codecogs.com/gif.latex?l_2" /> <img src="https://latex.codecogs.com/gif.latex?r_2" />  
+.  
+.  
+<img src="https://latex.codecogs.com/gif.latex?l_Q" /> <img src="https://latex.codecogs.com/gif.latex?r_Q" />  
 
 ### 出力形式
 
-$a$駅から$b$駅に移動する際の移動時間を出力せよ．  
+<img src="https://latex.codecogs.com/gif.latex?l" />駅から<img src="https://latex.codecogs.com/gif.latex?r" />駅に移動する際の移動時間を出力せよ．  
 
 ### サンプル入力
 
