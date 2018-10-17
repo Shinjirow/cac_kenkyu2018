@@ -38,6 +38,3 @@ Shinjirowくんは，これをいちいち自力で計算するのは大変な�
 
 <img src="https://latex.codecogs.com/gif.latex?l" /> 駅から <img src="https://latex.codecogs.com/gif.latex?r" /> 駅に移動する際の移動時間を出力せよ．  
 
-### サンプル入力
-
-### サンプル出力
