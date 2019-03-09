@@ -20,9 +20,8 @@ int main(){
     while(M--){
         int l, r;
         scanf("%d %d",&l, &r);
-        l--;
         int ans = 0;
-        for(int i = l; i < r;i++) ans += array[i];
+        for(int i = l - 1; i < r;i++) ans += array[i];
         
         printf("%d\n", ans);
     }

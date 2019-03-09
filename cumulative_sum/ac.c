@@ -23,9 +23,8 @@ int main(){
     while(M--){
         int l, r;
         scanf("%d %d",&l, &r);
-        l--;
         
-        printf("%d\n", cumsum[r]-cumsum[l]);
+        printf("%d\n", cumsum[r]-cumsum[l - 1]);
     }
 
     return 0;
